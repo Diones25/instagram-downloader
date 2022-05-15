@@ -1,4 +1,4 @@
-![img](back-end/src/assets/instagram.jpg)
+![img](src/assets/instagram.jpg)
 ## API de download de Reels, IGTV , Videos , Photos e Stories
 
 Esta API retorna uma url com o endereço de download de um video, imagem ou story do instagram, a documentação está disponíel nesse [link](https://rapidapi.com/maatootz/api/instagram-downloader-download-instagram-videos-stories/), e possível criar uma api_key e os parâmetros necessários no header. 
