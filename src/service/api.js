@@ -1,4 +1,4 @@
-const axios = require('axios');
+import axios from 'axios';
 
 const api = axios.create({
     headers: {
@@ -8,4 +8,4 @@ const api = axios.create({
     }
 });
 
-module.exports = api;
+export default api;

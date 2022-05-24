@@ -1,4 +1,4 @@
-const api = require('../service/api.js');
+import api from '../service/api.js';
 
 const getInstagramDownloader = async (req, res) => {
     const url = req.query["url"];
@@ -11,6 +11,6 @@ const getInstagramDownloader = async (req, res) => {
     });
 }
 
-module.exports = {
+export default {
     getInstagramDownloader
 }
